@@ -65,7 +65,7 @@ while cap.isOpened():
 		if(flag == "true"):
 		#   ID = key.description
 		   print(ID)
-		   URL = "http://www.inhaicesa.com:1666/users/" + ID + "?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdHVkZW50SWQiOiIxMjE1MTYxNiIsIm5hbWUiOiLsoITsiJjtmIQiLCJwYWlkIjoiMSIsInBob25lIjoiMDEwLTkyNzQtNTg5NyIsImF1dGhMZXZlbCI6NSwiZW1haWxBdXRoIjoxLCJwYXlEYXRlIjpudWxsLCJzY29yZSI6MTAsImlhdCI6MTU0NjI0NzkyOH0.va-yk-cmY-QQYw-W9byq5IOzVCY0GiNv_XZREJG2yTg"
+		   URL = "http://www.inhaicesa.com:1666/users/" + ID + "?token= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  " # remove token
 		   try:
 		   	answer = requests.get(URL)
 		   	json_data = json.loads(answer.text)
